@@ -1,6 +1,7 @@
 name: Run
 
 on:
+  push:
   schedule:
   - cron:  '*/5 * * * *'
 
