@@ -1,13 +1,13 @@
 'use strict'
 
 const duds = [
-	[ null, null, null, null, null, null, null, null ], // Sunday
-	[ null, null ], // Monday
-	[ null ], // Tuesday
-	[ null, null ], // Wednesday
-	[ null ], // Thursday
-	[ null, null, null, null ], // Friday
-	[ null, null, null, null, null, null ] // Saturday
+	[ null, null, null, null, null ], // Sunday
+	[ null ], // Monday
+	[ ], // Tuesday
+	[ null ], // Wednesday
+	[ ], // Thursday
+	[ null, null, null ], // Friday
+	[ null, null, null, null ] // Saturday
 ]
 
 module.exports = () => {
