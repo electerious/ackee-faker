@@ -46,8 +46,8 @@ const fillWithAction = async (endpoint, headers) => {
 
 }
 
-const endpoint = process.env.ACKEE_FAKER_API
-const token = process.env.ACKEE_FAKER_TOKEN
+const endpoint = process.env.ACKEE_ENDPOINT
+const token = process.env.ACKEE_TOKEN
 
 const headers = new Headers({
 	'Authorization': `Bearer ${ token }`,
