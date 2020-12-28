@@ -21,4 +21,7 @@ jobs:
       run: yarn --production --frozen-lockfile
 
     - name: Start script
+      env:
+        ACKEE_ENDPOINT: ${{ secrets.ACKEE_EDNPOINT }}
+        ACKEE_TOKEN: ${{ secrets.ACKEE_TOKEN }}
       run: yarn start
