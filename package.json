@@ -1,5 +1,6 @@
 {
   "name": "ackee-faker",
+  "private": true,
   "version": "1.0.1",
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
