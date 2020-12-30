@@ -1,4 +1,5 @@
 'use strict'
+require('dotenv').config()
 
 const { Headers } = require('node-fetch')
 const UserAgent = require('user-agents')
