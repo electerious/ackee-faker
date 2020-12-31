@@ -26,6 +26,12 @@ const referrers = [
 	'https://bing.com'
 ]
 
+const sources = [
+	'Newsletter #1',
+	'Newsletter #2',
+	'Marketing Campaign #1'
+]
+
 const langauges = [
 	'en',
 	'de',
@@ -146,6 +152,7 @@ const browsers = [
 module.exports = {
 	siteLocations,
 	referrers,
+	sources,
 	langauges,
 	resolutions,
 	screenColorDepths,
