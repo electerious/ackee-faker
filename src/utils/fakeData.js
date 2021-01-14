@@ -1,6 +1,4 @@
-'use strict'
-
-const siteLocations = [
+export const siteLocations = [
 	'https://example.com',
 	'https://example.com/projects.html',
 	'https://example.com/about.html',
@@ -11,7 +9,7 @@ const siteLocations = [
 	'https://example.com/projects/laudablesites.html'
 ]
 
-const referrers = [
+export const referrers = [
 	'https://electerious.com',
 	'https://laudableapps.com',
 	'https://laudablesites.com',
@@ -26,13 +24,13 @@ const referrers = [
 	'https://bing.com'
 ]
 
-const sources = [
+export const sources = [
 	'Newsletter #1',
 	'Newsletter #2',
 	'Marketing Campaign #1'
 ]
 
-const langauges = [
+export const langauges = [
 	'en',
 	'de',
 	'fr',
@@ -41,7 +39,7 @@ const langauges = [
 	'ja'
 ]
 
-const resolutions = [
+export const resolutions = [
 	{
 		width: 1366,
 		height: 768
@@ -68,14 +66,14 @@ const resolutions = [
 	}
 ]
 
-const screenColorDepths = [
+export const screenColorDepths = [
 	16,
 	24,
 	32,
 	48
 ]
 
-const devices = [
+export const devices = [
 	{
 		name: 'iPad',
 		manufacturer: 'Apple'
@@ -98,7 +96,7 @@ const devices = [
 	}
 ]
 
-const operatingSystems = [
+export const operatingSystems = [
 	{
 		name: 'OS X',
 		versions: [
@@ -125,7 +123,7 @@ const operatingSystems = [
 	}
 ]
 
-const browsers = [
+export const browsers = [
 	{
 		name: 'IE',
 		versions: [
@@ -148,15 +146,3 @@ const browsers = [
 		]
 	}
 ]
-
-module.exports = {
-	siteLocations,
-	referrers,
-	sources,
-	langauges,
-	resolutions,
-	screenColorDepths,
-	devices,
-	operatingSystems,
-	browsers
-}

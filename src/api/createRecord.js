@@ -1,8 +1,6 @@
-'use strict'
+import fetch from 'node-fetch'
 
-const fetch = require('node-fetch')
-
-module.exports = async (endpoint, headers, domain, record) => {
+export default async (endpoint, headers, domain, record) => {
 
 	const response = await fetch(endpoint, {
 		method: 'post',

@@ -1,8 +1,6 @@
-'use strict'
+import randomItem from './randomItem.js'
 
-const randomItem = require('./randomItem')
-
-module.exports = () => {
+export default () => {
 
 	return randomItem([
 		{

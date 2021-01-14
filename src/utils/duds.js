@@ -1,5 +1,3 @@
-'use strict'
-
 const duds = [
 	[ null, null, null, null, null ], // Sunday
 	[ null ], // Monday
@@ -10,7 +8,7 @@ const duds = [
 	[ null, null, null, null ] // Saturday
 ]
 
-module.exports = () => {
+export default () => {
 
 	const currentDate = new Date()
 	const currentWeekday = currentDate.getDay()

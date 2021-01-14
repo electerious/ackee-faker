@@ -1,22 +1,23 @@
-'use strict'
-require('dotenv').config()
+import dotenv from 'dotenv'
 
-const { Headers } = require('node-fetch')
-const UserAgent = require('user-agents')
+dotenv.config()
 
-const sleep = require('./utils/sleep')
-const duds = require('./utils/duds')
-const fakeRecord = require('./utils/fakeRecord')
-const fakeAction = require('./utils/fakeAction')
-const randomItem = require('./utils/randomItem')
-const randomInt = require('./utils/randomInt')
-const { hour } = require('./utils/times')
+import { Headers } from 'node-fetch'
+import UserAgent from 'user-agents'
 
-const fetchDomains = require('./api/fetchDomains')
-const fetchEvents = require('./api/fetchEvents')
-const createRecord = require('./api/createRecord')
-const updateRecord = require('./api/updateRecord')
-const createAction = require('./api/createAction')
+import sleep from './utils/sleep.js'
+import duds from './utils/duds.js'
+import fakeRecord from './utils/fakeRecord.js'
+import fakeAction from './utils/fakeAction.js'
+import randomItem from './utils/randomItem.js'
+import randomInt from './utils/randomInt.js'
+import { hour } from './utils/times.js'
+
+import fetchDomains from './api/fetchDomains.js'
+import fetchEvents from './api/fetchEvents.js'
+import createRecord from './api/createRecord.js'
+import updateRecord from './api/updateRecord.js'
+import createAction from './api/createAction.js'
 
 const fillWithRecord = async (endpoint, headers) => {
 

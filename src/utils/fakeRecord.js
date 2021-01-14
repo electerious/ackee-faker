@@ -1,9 +1,7 @@
-'use strict'
+import * as fakeData from './fakeData.js'
+import randomItem from './randomItem.js'
 
-const fakeData = require('./fakeData')
-const randomItem = require('./randomItem')
-
-module.exports = () => {
+export default () => {
 
 	const resolution = randomItem(fakeData.resolutions)
 	const device = randomItem(fakeData.devices)
