@@ -24,6 +24,11 @@ export default async (endpoint, headers, domain, record) => {
 
 	const data = await response.json()
 
+	if (data.errors != null) {
+		const message = data.errors[0].message
+		throw new Error(message)
+	}
+
 	return data.data.createRecord.payload
 
 }

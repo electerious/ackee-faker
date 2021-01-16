@@ -18,6 +18,11 @@ export default async (endpoint, headers) => {
 
 	const data = await response.json()
 
+	if (data.errors != null) {
+		const message = data.errors[0].message
+		throw new Error(message)
+	}
+
 	return data.data.domains
 
 }
