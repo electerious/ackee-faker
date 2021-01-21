@@ -16,7 +16,7 @@ export default () => {
 		siteLocation: randomItem(fakeData.siteLocations),
 		siteReferrer: randomItem([ null, ...fakeData.referrers ]),
 		siteLanguage: randomItem([ null, ...fakeData.langauges ]),
-		sources: randomItem([ null, null, null, ...fakeData.sources ]),
+		source: randomItem([ null, null, null, ...fakeData.sources ]),
 		screenWidth: resolution.width,
 		screenHeight: resolution.height,
 		screenColorDepth: randomItem([ null, ...fakeData.screenColorDepths ]),
