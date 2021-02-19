@@ -1563,10 +1563,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-user-agents@^1.0.564:
-  version "1.0.564"
-  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.564.tgz#71f95863a6ca7588cbf437b720e150ff962bed59"
-  integrity sha512-tTcDw5XMiATuoAJaWWLgd6yX2WHyzriY1eO/78KiofzjmUXImN0++KWfo2nim54iTFAHxXCpeARvQk3PjdHNZg==
+user-agents@^1.0.567:
+  version "1.0.567"
+  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.567.tgz#dc978575fb0942d9144e7cdda5f04259d2aee648"
+  integrity sha512-9Oq4hiUcVUy0S4vuAcjgCuYt5+6LBwIiyK5a1KuRhLKXjcmh4I1Y1pTiVafKRcBTckPWCsL8BpQHJxANNmhTBQ==
   dependencies:
     dot-json "^1.2.1"
     lodash.clonedeep "^4.5.0"
