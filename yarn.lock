@@ -375,10 +375,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dot-json@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/dot-json/-/dot-json-1.2.1.tgz#d32f67dd4e258711c786b3450bde427a9793c394"
-  integrity sha512-sHtCsDBBzhTUFhS12cAvUbP9JTr59LLNxnpNr6dlgbjZlN+nrWFs+uHXgsJvFmc5HoMFR4e60rdqd+GdSUlM3w==
+dot-json@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/dot-json/-/dot-json-1.2.2.tgz#7d35abece4aa22aa75a761388953f98495401bcc"
+  integrity sha512-AKL+GsO4wSEU4LU+fAk/PqN4nQ6PB1vT3HpMiZous9xCzK5S0kh4DzfUY0EfU67jsIXLlu0ty71659N9Nmg+Tw==
   dependencies:
     detect-indent "~6.0.0"
     docopt "~0.6.2"
@@ -1563,12 +1563,12 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-user-agents@^1.0.567:
-  version "1.0.567"
-  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.567.tgz#dc978575fb0942d9144e7cdda5f04259d2aee648"
-  integrity sha512-9Oq4hiUcVUy0S4vuAcjgCuYt5+6LBwIiyK5a1KuRhLKXjcmh4I1Y1pTiVafKRcBTckPWCsL8BpQHJxANNmhTBQ==
+user-agents@^1.0.570:
+  version "1.0.570"
+  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.570.tgz#c649c833844d4c409f65bf4079c4ae1ee901bb5f"
+  integrity sha512-0quXDEeyiuMqDb/YHdhlvotfWRVVvuyLFqPgoyVtlzB33TVGPb2Au2r+Q3FaQF6bAuFM8MKHXfutk1Ewna3M+Q==
   dependencies:
-    dot-json "^1.2.1"
+    dot-json "^1.2.2"
     lodash.clonedeep "^4.5.0"
 
 v8-compile-cache@^2.0.3:
