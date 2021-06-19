@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 
 export default async (endpoint, headers, domain, record) => {
-
 	const response = await fetch(endpoint, {
 		method: 'post',
 		headers,
@@ -17,9 +16,9 @@ export default async (endpoint, headers, domain, record) => {
 			`,
 			variables: {
 				domainId: domain.id,
-				input: record
-			}
-		})
+				input: record,
+			},
+		}),
 	})
 
 	const data = await response.json()
@@ -30,5 +29,4 @@ export default async (endpoint, headers, domain, record) => {
 	}
 
 	return data.data.createRecord.payload
-
 }

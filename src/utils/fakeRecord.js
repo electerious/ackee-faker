@@ -2,14 +2,13 @@ import * as fakeData from './fakeData.js'
 import randomItem from './randomItem.js'
 
 export default () => {
-
 	const resolution = randomItem(fakeData.resolutions)
 	const device = randomItem(fakeData.devices)
 	const operatingSystem = randomItem(fakeData.operatingSystems)
 	const browser = randomItem(fakeData.browsers)
 
 	const anonymousRecord = {
-		siteLocation: randomItem(fakeData.siteLocations)
+		siteLocation: randomItem(fakeData.siteLocations),
 	}
 
 	const detailedRecord = {
@@ -27,12 +26,11 @@ export default () => {
 		browserName: browser.name,
 		browserVersion: randomItem(browser.versions),
 		browserWidth: resolution.width,
-		browserHeight: resolution.height
+		browserHeight: resolution.height,
 	}
 
 	return randomItem([
 		anonymousRecord,
-		detailedRecord
+		detailedRecord,
 	])
-
 }

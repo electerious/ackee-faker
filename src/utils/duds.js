@@ -5,14 +5,12 @@ const duds = [
 	[ null ], // Wednesday
 	[ ], // Thursday
 	[ null, null, null ], // Friday
-	[ null, null, null, null ] // Saturday
+	[ null, null, null, null ], // Saturday
 ]
 
 export default () => {
-
 	const currentDate = new Date()
 	const currentWeekday = currentDate.getDay()
 
 	return duds[currentWeekday]
-
 }

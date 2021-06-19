@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 
 export default async (endpoint, headers) => {
-
 	const response = await fetch(endpoint, {
 		method: 'post',
 		headers,
@@ -12,8 +11,8 @@ export default async (endpoint, headers) => {
 						id
 					}
 				}
-			`
-		})
+			`,
+		}),
 	})
 
 	const data = await response.json()
@@ -24,5 +23,4 @@ export default async (endpoint, headers) => {
 	}
 
 	return data.data.events
-
 }

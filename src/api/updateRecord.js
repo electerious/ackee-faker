@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 
 export default async (endpoint, headers, record) => {
-
 	const response = await fetch(endpoint, {
 		method: 'post',
 		headers,
@@ -14,9 +13,9 @@ export default async (endpoint, headers, record) => {
 				}
 			`,
 			variables: {
-				id: record.id
-			}
-		})
+				id: record.id,
+			},
+		}),
 	})
 
 	const data = await response.json()
@@ -27,5 +26,4 @@ export default async (endpoint, headers, record) => {
 	}
 
 	return data.data.updateRecord.success
-
 }
