@@ -50,6 +50,7 @@ const token = process.env.ACKEE_TOKEN
 const headers = new Headers({
 	'Authorization': `Bearer ${ token }`,
 	'User-Agent': new UserAgent().toString(),
+	'Content-Type': 'application/json',
 })
 
 fillWithRecord(endpoint, headers)
