@@ -1,7 +1,7 @@
 {
   "name": "ackee-faker",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
@@ -30,15 +30,15 @@
     "src"
   ],
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "node-fetch": "^3.2.3",
-    "user-agents": "^1.0.953"
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.4",
+    "user-agents": "^1.0.1017"
   },
   "eslintConfig": {
     "root": true,
     "extends": "@electerious/eslint-config"
   },
   "devDependencies": {
-    "@electerious/eslint-config": "^3.1.0"
+    "@electerious/eslint-config": "^3.2.0"
   }
 }

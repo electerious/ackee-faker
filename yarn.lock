@@ -23,17 +23,17 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@electerious/eslint-config@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@electerious/eslint-config/-/eslint-config-3.1.0.tgz#d2473c929cd560eedb93f15f5028af48f1d57e35"
-  integrity sha512-mCahFJec7OfMi5Zxa5dvVSp3i6edvKJP6Ab4mau425fhM06XC+A0y8roHAlfP8oThtc2DgjppvRiAOmwbKORqQ==
+"@electerious/eslint-config@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@electerious/eslint-config/-/eslint-config-3.2.0.tgz#e2136f71a409a9e37a5905f167c424a79a78981d"
+  integrity sha512-21IW8Xf+N/ZVesotxXQZLnyUznJYAGVLtVh+TWksv02+7CUFbuhqtIJvXZTOQQa8KOOKgHptIREj1veygOToeA==
   dependencies:
     eslint "^8.0.1"
     eslint-plugin-ava "^13.0.0"
     eslint-plugin-import "^2.25.4"
     eslint-plugin-react "^7.28.0"
     eslint-plugin-react-hooks "^4.3.0"
-    eslint-plugin-unicorn "^40.0.0"
+    eslint-plugin-unicorn "^42.0.0"
 
 "@eslint/eslintrc@^1.2.1":
   version "1.2.1"
@@ -323,10 +323,10 @@ dot-json@^1.2.2:
     docopt "~0.6.2"
     underscore-keypath "~0.0.22"
 
-dotenv@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.0.tgz#c619001253be89ebb638d027b609c75c26e47411"
-  integrity sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==
+dotenv@^16.0.1:
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.1.tgz#8f8f9d94876c35dac989876a5d3a82a267fdce1d"
+  integrity sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==
 
 enhance-visitors@^1.0.0:
   version "1.0.0"
@@ -461,10 +461,10 @@ eslint-plugin-react@^7.28.0:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-unicorn@^40.0.0:
-  version "40.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-40.1.0.tgz#48975360e39d23df726e4b33e8dd5d650e184832"
-  integrity sha512-y5doK2DF9Sr5AqKEHbHxjFllJ167nKDRU01HDcWyv4Tnmaoe9iNxMrBnaybZvWZUaE3OC5Unu0lNIevYamloig==
+eslint-plugin-unicorn@^42.0.0:
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-42.0.0.tgz#47d60c00c263ad743403b052db689e39acbacff1"
+  integrity sha512-ixBsbhgWuxVaNlPTT8AyfJMlhyC5flCJFjyK3oKE8TRrwBnaHvUbuIkCM1lqg8ryYrFStL/T557zfKzX4GKSlg==
   dependencies:
     "@babel/helper-validator-identifier" "^7.15.7"
     ci-info "^3.3.0"
@@ -1093,10 +1093,10 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.3.tgz#a03c9cc2044d21d1a021566bd52f080f333719a6"
-  integrity sha512-AXP18u4pidSZ1xYXRDPY/8jdv3RAozIt/WLNR/MBGZAz+xjtlr90RvCnsvHQRiXyWliZF/CpytExp32UU67/SA==
+node-fetch@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.4.tgz#3fbca2d8838111048232de54cb532bd3cf134947"
+  integrity sha512-WvYJRN7mMyOLurFR2YpysQGuwYrJN+qrrpHjJDuKMcSPdfFccRUla/kng2mz6HWSBxJcqPbvatS6Gb4RhOzCJw==
   dependencies:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
@@ -1596,10 +1596,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-user-agents@^1.0.953:
-  version "1.0.953"
-  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.953.tgz#eba9b869e04bde204fb4608af1c68b5f70cd9789"
-  integrity sha512-QUlluc9EPVbR2SD3rR5qi8RGSXQDI0mfbdtBHqeHfynMaAFN9mlJZJb0Ds2lGGlFUgjLkuN/b1FYJe4onE7+ZA==
+user-agents@^1.0.1017:
+  version "1.0.1017"
+  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.1017.tgz#27ae0af9be172b1969cff2829c27d464da175d8c"
+  integrity sha512-XQl/auR2x0vxqSJx752Ao1dmPUL4851MIpBlEifVhw6q9WIzHly+fqZcqx1pcdIMMNbu50FThRyOJ5tmF8dXXw==
   dependencies:
     dot-json "^1.2.2"
     lodash.clonedeep "^4.5.0"
