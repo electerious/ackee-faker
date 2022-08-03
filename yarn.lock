@@ -1093,10 +1093,10 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.4.tgz#3fbca2d8838111048232de54cb532bd3cf134947"
-  integrity sha512-WvYJRN7mMyOLurFR2YpysQGuwYrJN+qrrpHjJDuKMcSPdfFccRUla/kng2mz6HWSBxJcqPbvatS6Gb4RhOzCJw==
+node-fetch@^3.2.10:
+  version "3.2.10"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.10.tgz#e8347f94b54ae18b57c9c049ef641cef398a85c8"
+  integrity sha512-MhuzNwdURnZ1Cp4XTazr69K0BTizsBroX7Zx3UgDSVcZYKF/6p0CBe4EUb/hLqmzVhl0UpYfgRljQ4yxE+iCxA==
   dependencies:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
@@ -1596,10 +1596,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-user-agents@^1.0.1017:
-  version "1.0.1017"
-  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.1017.tgz#27ae0af9be172b1969cff2829c27d464da175d8c"
-  integrity sha512-XQl/auR2x0vxqSJx752Ao1dmPUL4851MIpBlEifVhw6q9WIzHly+fqZcqx1pcdIMMNbu50FThRyOJ5tmF8dXXw==
+user-agents@^1.0.1096:
+  version "1.0.1096"
+  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.0.1096.tgz#69da03b27eb72910eacd1aca7c464bd4c00511d3"
+  integrity sha512-Pwp/gYewNYDmp38D67RzSRAPPZf+H4bBQBXuysh/h58EybjHUBChMqu+7iMDihFHfic/Hlpq+U3EJE/WM8gMuA==
   dependencies:
     dot-json "^1.2.2"
     lodash.clonedeep "^4.5.0"
