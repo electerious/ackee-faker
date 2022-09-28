@@ -1,7 +1,7 @@
 {
   "name": "ackee-faker",
   "private": true,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
@@ -39,6 +39,6 @@
     "extends": "@electerious/eslint-config"
   },
   "devDependencies": {
-    "@electerious/eslint-config": "^3.2.0"
+    "@electerious/eslint-config": "^3.5.0"
   }
 }
