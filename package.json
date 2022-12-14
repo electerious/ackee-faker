@@ -32,7 +32,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "node-fetch": "^3.3.0",
-    "user-agents": "^1.0.1216"
+    "user-agents": "^1.0.1229"
   },
   "eslintConfig": {
     "root": true,
