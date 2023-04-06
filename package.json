@@ -31,8 +31,8 @@
   ],
   "dependencies": {
     "dotenv": "^16.0.3",
-    "node-fetch": "^3.3.0",
-    "user-agents": "^1.0.1229"
+    "node-fetch": "^3.3.1",
+    "user-agents": "^1.0.1341"
   },
   "eslintConfig": {
     "root": true,
