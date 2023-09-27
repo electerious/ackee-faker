@@ -1,5 +1,3 @@
-import fetch from 'node-fetch'
-
 export default async (endpoint, headers, domain, record) => {
 	const response = await fetch(endpoint, {
 		method: 'post',

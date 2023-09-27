@@ -2,7 +2,6 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-import { Headers } from 'node-fetch'
 import UserAgent from 'user-agents'
 
 import sleep from './utils/sleep.js'
