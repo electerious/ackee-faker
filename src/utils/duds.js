@@ -1,16 +1,23 @@
 const duds = [
-	[ null, null, null, null, null ], // Sunday
-	[ null ], // Monday
-	[ ], // Tuesday
-	[ null ], // Wednesday
-	[ ], // Thursday
-	[ null, null, null ], // Friday
-	[ null, null, null, null ], // Saturday
+  // Sunday
+  [null, null, null, null, null],
+  // Monday
+  [null],
+  // Tuesday
+  [],
+  // Wednesday
+  [null],
+  // Thursday
+  [],
+  // Friday
+  [null, null, null],
+  // Saturday
+  [null, null, null, null],
 ]
 
 export default () => {
-	const currentDate = new Date()
-	const currentWeekday = currentDate.getDay()
+  const currentDate = new Date()
+  const currentWeekday = currentDate.getDay()
 
-	return duds[currentWeekday]
+  return duds[currentWeekday]
 }

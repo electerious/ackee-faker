@@ -3,11 +3,10 @@ name: Run
 on:
   push:
   schedule:
-    - cron:  '*/5 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   run:
-
     runs-on: ubuntu-latest
 
     steps:
