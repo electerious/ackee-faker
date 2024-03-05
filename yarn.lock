@@ -719,10 +719,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dotenv@^16.3.1:
-  version "16.3.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
-  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+dotenv@^16.4.5:
+  version "16.4.5"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
+  integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
 
 electron-to-chromium@^1.4.535:
   version "1.4.581"
@@ -2485,10 +2485,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-user-agents@^1.1.75:
-  version "1.1.75"
-  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.1.75.tgz#94d994c3cb3250cd5ea821914433853376b6ebea"
-  integrity sha512-KfgwDV8uoDYDzWe9L9G4j93eWU7GL1+PEcKnfgPrMvC6avH/xKPzWP1ZdujGhL7caZuQ0o7/HSHwhk1zRNC4Xw==
+user-agents@^1.1.134:
+  version "1.1.134"
+  resolved "https://registry.yarnpkg.com/user-agents/-/user-agents-1.1.134.tgz#40ae3853a3a9fa66fb31f3f62e77ca2de981f824"
+  integrity sha512-TpLRCRgcEh8SraGtg19HJ494kUqNW/i8K10bqWQ8k7Z76yxWB7jJWNY79XZjy38POBSsa+CXjVyIYN+6x1z6iA==
   dependencies:
     lodash.clonedeep "^4.5.0"
 
