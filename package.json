@@ -35,7 +35,7 @@
   "dependencies": {
     "@electerious/prettier-config": "^2.0.0",
     "dotenv": "^16.4.5",
-    "user-agents": "^1.1.134"
+    "user-agents": "^1.1.209"
   },
   "devDependencies": {
     "@electerious/eslint-config": "^4.1.0"

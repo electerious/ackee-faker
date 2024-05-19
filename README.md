@@ -21,7 +21,7 @@ A script that runs continuously thanks to GitHub Actions and fills the Ackee dem
 ackee-faker dependents on …
 
 - [Node.js](https://nodejs.org/en/) (v18 or newer)
-- [yarn](https://yarnpkg.com/en/)
+- [npm](https://www.npmjs.com)
 
 Make sure to install and update all dependencies before you continue. The installation instructions for the individual dependencies can be found on the linked websites.
 
@@ -39,7 +39,7 @@ ACKEE_TOKEN=5c5411b0-ef80-425b-8e80-e8c4a76fcad6
 Install all required dependencies.
 
 ```sh
-yarn install
+npm install
 ```
 
 ### 4. Run ackee-faker
@@ -47,7 +47,7 @@ yarn install
 ackee-faker will fetch all domains and events it can find on the installation. It will sometimes skip the creation of new records and events to replicate a real usage. The script might run for up to 15 minutes depending on a random record update delay.
 
 ```sh
-yarn start
+npm start
 ```
 
 ## Miscellaneous
