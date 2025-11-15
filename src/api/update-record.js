@@ -1,15 +1,18 @@
-export default async (endpoint, headers) => {
+export default async function updateRecord(endpoint, headers, record) {
   const response = await fetch(endpoint, {
     method: 'post',
     headers,
     body: JSON.stringify({
       query: `
-        query fetchDomains {
-          domains {
-            id
+        mutation updateRecord($id: ID!) {
+          updateRecord(id: $id) {
+            success
           }
         }
       `,
+      variables: {
+        id: record.id,
+      },
     }),
   })
 
@@ -20,5 +23,5 @@ export default async (endpoint, headers) => {
     throw new Error(message)
   }
 
-  return data.data.domains
+  return data.data.updateRecord.success
 }

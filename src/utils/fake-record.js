@@ -1,7 +1,7 @@
-import * as fakeData from './fakeData.js'
-import randomItem from './randomItem.js'
+import * as fakeData from './fake-data.js'
+import randomItem from './random-item.js'
 
-export default () => {
+export default function fakeRecord() {
   const resolution = randomItem(fakeData.resolutions)
   const device = randomItem(fakeData.devices)
   const operatingSystem = randomItem(fakeData.operatingSystems)

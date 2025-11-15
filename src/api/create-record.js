@@ -1,4 +1,4 @@
-export default async (endpoint, headers, domain, record) => {
+export default async function createRecord(endpoint, headers, domain, record) {
   const response = await fetch(endpoint, {
     method: 'post',
     headers,

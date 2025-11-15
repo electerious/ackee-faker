@@ -4,7 +4,7 @@
 
 # ackee-faker
 
-[![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
+[![Test](https://github.com/electerious/ackee-faker/actions/workflows/test.yml/badge.svg)](https://github.com/electerious/ackee-faker/actions/workflows/test.yml) [![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
 
 A script that runs continuously thanks to GitHub Actions and fills the Ackee demo with data.
 
@@ -20,7 +20,7 @@ A script that runs continuously thanks to GitHub Actions and fills the Ackee dem
 
 ackee-faker dependents on …
 
-- [Node.js](https://nodejs.org/en/) (v18 or newer)
+- [Node.js](https://nodejs.org/en/) (v22 or newer)
 - [npm](https://www.npmjs.com)
 
 Make sure to install and update all dependencies before you continue. The installation instructions for the individual dependencies can be found on the linked websites.

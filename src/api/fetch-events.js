@@ -1,4 +1,4 @@
-export default async (endpoint, headers) => {
+export default async function fetchEvents(endpoint, headers) {
   const response = await fetch(endpoint, {
     method: 'post',
     headers,

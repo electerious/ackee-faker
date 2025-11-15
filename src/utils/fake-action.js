@@ -1,6 +1,6 @@
-import randomItem from './randomItem.js'
+import randomItem from './random-item.js'
 
-export default () => {
+export default function fakeAction() {
   return randomItem([
     {
       key: 'Clicked "Twitter"',

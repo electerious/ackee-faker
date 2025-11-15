@@ -1,12 +1,8 @@
 {
   "name": "ackee-faker",
+  "version": "3.0.0",
   "private": true,
-  "version": "2.0.0",
-  "authors": [
-    "Tobias Reich <tobias@electerious.com>"
-  ],
   "description": "Fills Ackee with fake data",
-  "main": "src/index.js",
   "keywords": [
     "ackee",
     "tracking",
@@ -14,37 +10,35 @@
     "data",
     "generator"
   ],
-  "type": "module",
-  "scripts": {
-    "eslint": "eslint --ignore-path .gitignore '**/*.js'",
-    "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,css,yml,md}'",
-    "start": "node src/index.js",
-    "test": "npm run lint",
-    "lint": "npm run eslint && npm run prettier -- --check",
-    "format": "npm run eslint -- --fix && npm run prettier -- --write"
-  },
-  "license": "MIT",
   "homepage": "https://github.com/electerious/ackee-faker",
   "repository": {
     "type": "git",
     "url": "https://github.com/electerious/ackee-faker.git"
   },
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
   "files": [
     "src"
   ],
+  "scripts": {
+    "eslint": "eslint \"**/*.js\"",
+    "format": "npm run eslint -- --fix && npm run prettier -- --write",
+    "lint": "npm run eslint && npm run prettier -- --check",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,md,yml}\"",
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "test": "npm run lint"
+  },
   "dependencies": {
-    "@electerious/prettier-config": "^2.0.0",
-    "dotenv": "^16.4.5",
-    "user-agents": "^1.1.270"
+    "user-agents": "^1.1.669"
   },
   "devDependencies": {
-    "@electerious/eslint-config": "^4.1.0"
+    "@electerious/eslint-config": "^5.2.1",
+    "@electerious/prettier-config": "^4.0.0",
+    "eslint": "^9.39.1",
+    "prettier": "^3.6.2"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@electerious/eslint-config"
-    ]
-  },
-  "prettier": "@electerious/prettier-config"
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ]
 }

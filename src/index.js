@@ -1,20 +1,17 @@
-import dotenv from 'dotenv'
 import UserAgent from 'user-agents'
 
-import createAction from './api/createAction.js'
-import createRecord from './api/createRecord.js'
-import fetchDomains from './api/fetchDomains.js'
-import fetchEvents from './api/fetchEvents.js'
-import updateRecord from './api/updateRecord.js'
+import createAction from './api/create-action.js'
+import createRecord from './api/create-record.js'
+import fetchDomains from './api/fetch-domains.js'
+import fetchEvents from './api/fetch-events.js'
+import updateRecord from './api/update-record.js'
 import duds from './utils/duds.js'
-import fakeAction from './utils/fakeAction.js'
-import fakeRecord from './utils/fakeRecord.js'
-import randomInt from './utils/randomInt.js'
-import randomItem from './utils/randomItem.js'
+import fakeAction from './utils/fake-action.js'
+import fakeRecord from './utils/fake-record.js'
+import randomInt from './utils/random-int.js'
+import randomItem from './utils/random-item.js'
 import sleep from './utils/sleep.js'
 import { hour } from './utils/times.js'
-
-dotenv.config()
 
 const fillWithRecord = async (endpoint, headers) => {
   const updateDelay = randomInt(0, hour / 4)
@@ -50,5 +47,5 @@ const headers = new Headers({
   'Content-Type': 'application/json',
 })
 
-fillWithRecord(endpoint, headers)
-fillWithAction(endpoint, headers)
+await fillWithRecord(endpoint, headers)
+await fillWithAction(endpoint, headers)
