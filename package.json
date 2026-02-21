@@ -33,10 +33,10 @@
     "user-agents": "^1.1.669"
   },
   "devDependencies": {
-    "@electerious/eslint-config": "^5.2.1",
-    "@electerious/prettier-config": "^4.0.0",
-    "eslint": "^9.39.1",
-    "prettier": "^3.6.2"
+    "@electerious/eslint-config": "^5.2.2",
+    "@electerious/prettier-config": "^4.0.1",
+    "eslint": "^9.39.3",
+    "prettier": "^3.8.1"
   },
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
