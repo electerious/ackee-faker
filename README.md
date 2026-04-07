@@ -27,7 +27,7 @@ Make sure to install and update all dependencies before you continue. The instal
 
 ### 2. Create the configuration
 
-Pull the project and configure ackee-faker using environment variables or create a [`.env` file](https://www.npmjs.com/package/dotenv) in the root of the project to store all variables in one file.
+Pull the project and configure ackee-faker using environment variables or create a `.env` file in the root of the project to store all variables in one file.
 
 ```
 ACKEE_ENDPOINT=https://ackee.example.com/api
