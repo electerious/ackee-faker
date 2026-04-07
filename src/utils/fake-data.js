@@ -26,7 +26,7 @@ export const referrers = [
 
 export const sources = ['Newsletter #1', 'Newsletter #2', 'Marketing Campaign #1']
 
-export const langauges = ['en', 'de', 'fr', 'ar', 'es', 'ja']
+export const languages = ['en', 'de', 'fr', 'ar', 'es', 'ja']
 
 export const resolutions = [
   {

@@ -14,7 +14,7 @@ export default function fakeRecord() {
   const detailedRecord = {
     siteLocation: randomItem(fakeData.siteLocations),
     siteReferrer: randomItem([null, ...fakeData.referrers]),
-    siteLanguage: randomItem([null, ...fakeData.langauges]),
+    siteLanguage: randomItem([null, ...fakeData.languages]),
     source: randomItem([null, null, null, ...fakeData.sources]),
     screenWidth: resolution.width,
     screenHeight: resolution.height,
