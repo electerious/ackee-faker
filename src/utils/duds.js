@@ -4,18 +4,18 @@ export default function duds() {
 
   return [
     // Sunday
-    [null, null, null, null, null],
+    [null, null, null, null],
     // Monday
     [null],
     // Tuesday
     [],
     // Wednesday
-    [null],
+    [],
     // Thursday
     [],
     // Friday
-    [null, null, null],
+    [null, null],
     // Saturday
-    [null, null, null, null],
+    [null, null, null],
   ][currentWeekday]
 }
