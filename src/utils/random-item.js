@@ -1,4 +1,4 @@
 // Returns a random item from an array
-export default function randomItem(arr) {
-  return arr[Math.floor(Math.random() * arr.length)]
+export default function randomItem(array) {
+  return array[Math.floor(Math.random() * array.length)]
 }
