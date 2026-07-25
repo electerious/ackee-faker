@@ -13,7 +13,7 @@
   "homepage": "https://github.com/electerious/ackee-faker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electerious/ackee-faker.git"
+    "url": "git+https://github.com/electerious/ackee-faker.git"
   },
   "license": "MIT",
   "type": "module",
