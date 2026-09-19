@@ -20,7 +20,7 @@ A script that runs continuously thanks to GitHub Actions and fills the Ackee dem
 
 ackee-faker dependents on …
 
-- [Node.js](https://nodejs.org/en/) (v22 or newer)
+- [Node.js](https://nodejs.org/en/) (v24 or higher)
 - [npm](https://www.npmjs.com)
 
 Make sure to install and update all dependencies before you continue. The installation instructions for the individual dependencies can be found on the linked websites.

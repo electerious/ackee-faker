@@ -1,6 +1,6 @@
 {
   "name": "ackee-faker",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "private": true,
   "description": "Fills Ackee with fake data",
   "keywords": [
@@ -33,9 +33,9 @@
     "user-agents": "^2.1.108"
   },
   "devDependencies": {
-    "@electerious/eslint-config": "^5.4.0",
+    "@electerious/eslint-config": "^6.0.0",
     "@electerious/prettier-config": "^5.0.0",
-    "eslint": "^9.39.4",
+    "eslint": "^10.11.0",
     "prettier": "^3.9.4"
   },
   "authors": [
