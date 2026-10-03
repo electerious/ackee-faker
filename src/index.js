@@ -1,3 +1,4 @@
+import { setTimeout } from 'node:timers/promises'
 import UserAgent from 'user-agents'
 
 import createAction from './api/create-action.js'
@@ -10,7 +11,6 @@ import fakeAction from './utils/fake-action.js'
 import fakeRecord from './utils/fake-record.js'
 import randomInt from './utils/random-int.js'
 import randomItem from './utils/random-item.js'
-import sleep from './utils/sleep.js'
 import { hour } from './utils/times.js'
 
 const fillWithRecord = async (endpoint, headers) => {
@@ -24,7 +24,7 @@ const fillWithRecord = async (endpoint, headers) => {
   const record = fakeRecord()
   const response = await createRecord(endpoint, headers, domain, record)
 
-  await sleep(updateDelay)
+  await setTimeout(updateDelay)
   await updateRecord(endpoint, headers, response)
 }
 
